@@ -1,0 +1,112 @@
+.fw-bold {
+  font-weight: 900;
+}
+
+.fw-bolder {
+  font-weight: 700;
+}
+
+.fw-normal {
+  font-weight: 400;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.title-center-40 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.title-center-30 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.title-center-25 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.title-center-20 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.title-center-15 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 100px;
+  width: 100vw;
+  background-color: #63af2b;
+  color: #fff;
+}
+
+.form-login-container {
+  max-width: 900px;
+  width: 99vw;
+  margin: 20px auto;
+  padding: 20px;
+  border: solid 1px #333;
+}
+
+.footer {
+  width: 100vw;
+  height: 100px;
+  background-color: #63af2b;
+  position: fixed;
+  bottom: 0;
+}
+
+.input {
+  width: 80%;
+  margin: 20px auto 20px auto;
+  display: block;
+  height: 60px;
+}
+
+.input::placeholder {
+  font-size: 30px;
+}
+
+.form-button {
+  border: 0 solid;
+  border-radius: 20px;
+  width: 80%;
+  display: block;
+  margin: 0 auto 20px auto;
+  color: #fff;
+  background-color: #63af2b;
+  font-size: 30px;
+  height: 80px;
+}
+
+.form-button-google {
+  background-color: #fff;
+  color: inherit;
+  border: solid 1px #333;
+  position: relative;
+  font-weight: 900;
+}
+.form-button-google > img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
