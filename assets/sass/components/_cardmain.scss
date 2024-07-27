@@ -7,6 +7,7 @@
         color: $color-black;
         text-align: left;
         margin: 0;
+        font-size: $fs-30px;
     }
 
 
@@ -16,18 +17,18 @@
         position: relative;
         &>img{
             position: absolute;
-            top: 25px;
+            top: 15px;
             height: 60px;
             border-radius: 50%;
         }
         &>h2{
             display: inline-block;
-            font-size: $fs-40px;
+            font-size: $fs-30px;
             margin-left: 70px;
         }
         &>h3{
             display: inline-block;
-            font-size: $fs-30px;
+            font-size: $fs-20px;
             font-weight: $fw-normal;
             margin-left: 30px;
         }

@@ -91,11 +91,11 @@ body > hr {
 }
 
 .card-zone {
-  max-width: 1200;
-  width: 99vh;
-  margin: 0 auto 20px auto;
+  max-width: 900px;
   width: 900px;
+  margin: 0 auto;
 }
+
 .input {
   width: 80%;
   margin: 0px auto 20px auto;
@@ -136,10 +136,8 @@ body > hr {
 
 .subscripcion {
   background-color: #63af2b;
-  width: 99vw;
-  max-width: 900px;
+  width: 920px;
   margin: 0 auto;
-  padding: 10px 20px;
   border-radius: 20px;
 }
 .subscripcion > div {
@@ -196,6 +194,7 @@ body > hr {
   color: #000;
   text-align: left;
   margin: 0;
+  font-size: 30px;
 }
 .card-main > .card-info {
   margin: 0 auto;
@@ -204,18 +203,18 @@ body > hr {
 }
 .card-main > .card-info > img {
   position: absolute;
-  top: 25px;
+  top: 15px;
   height: 60px;
   border-radius: 50%;
 }
 .card-main > .card-info > h2 {
   display: inline-block;
-  font-size: 40px;
+  font-size: 30px;
   margin-left: 70px;
 }
 .card-main > .card-info > h3 {
   display: inline-block;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
   margin-left: 30px;
 }
@@ -256,8 +255,8 @@ body > hr {
   margin: 0;
 }
 .card-secondary > h2 {
-  font-weight: 900;
-  font-size: 30px;
+  font-weight: 700;
+  font-size: 25px;
   padding: 0;
   margin: 0;
 }
