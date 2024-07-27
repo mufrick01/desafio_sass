@@ -9,21 +9,32 @@
 </head>
 
 <body>
-    <header class="header"></header>
+    <header class="header">
+        <div class="brand">
+            <img src="./assets/img/logos/adl.png" alt="">
+            <p>BlogFrontend</p>
+        </div>
+    </header>
     <main>
-        <section class="form-login-container">
+        <section class="form-container">
             <h2 class="title-center-40">Regístrate ¡Es Gratís!</h2>
             <input class="input" type="text" name="name" placeholder="Nombre">
             <input class="input" type="text" name="lastname" placeholder="apellido">
             <input class="input" type="text" name="email" placeholder="email@example.com">
             <input class="input" type="password" name="password" id="" placeholder="Contraseña">
             <input class="input" type="password" name="password" id="" placeholder="Repite contraseña">
-            <button class="form-button">click</button>
-            <button class="form-button form-button-google">
-                registrate con google
-                <img src="./assets/img/logos/adl.png" alt="">
-            </button>
-            <p class="title-center-25">ya tienes cuenta? <span class="fw-bold">inicia sesion</span></p>
+            <a href="./login.html">
+                <button class="form-button">Crea tu cuenta</button>
+            </a>
+            <a href="#">
+                <button class="form-button form-button-google">
+                    registrate con google
+                    <img src="./assets/img/logos/google.png" alt="">
+                </button>
+            </a>
+            <a href="./login.html">
+                <p class="title-center-25">ya tienes cuenta? <span class="fw-bold">inicia sesion</span></p>
+            </a>
         </section>
     </main>
 </body>
